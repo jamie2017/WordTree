@@ -2,18 +2,20 @@
 
 ### Simple API for comparing hyper and hypon difference between two words
 
-   - [Use BaseHTTPServer](#WordTreeByBaseHTTP.py)
+   - [Use BaseHTTPServer](#https://github.com/jamie2017/WordTree/blob/master/WordTreeByBaseHTTP.py)
      - WordTreeByBaseHTTP.py
-   - [Use Flask](#WordTreeByFlask.py)
+   - [Use Flask](#https://github.com/jamie2017/WordTree/blob/master/WordTreeByFlask.py)
      - WordTreeByFlask.py
     
     
 ### Example
   - hypernyms are the synsets that are more general
-    [127.0.0.1:8080/hyper?word1=banana&word2=apple](#output/banana.n.02_vs_apple.n.01_hyper_.png)
+    [127.0.0.1:8080/hyper?word1=banana&word2=apple]
+    ![Screenshot](#https://github.com/jamie2017/WordTree/blob/master/output/banana.n.02_vs_apple.n.01_hyper_.png)
 
   - hyponyms are the synsets that are more specific
-    [127.0.0.1:8080/hyper?word1=banana&word2=apple](#output/banana.n.02_vs_apple.n.01_hypon_.png)
+    [127.0.0.1:8080/hyper?word1=banana&word2=apple]
+    ![Screenshot](#https://github.com/jamie2017/WordTree/blob/master/output/banana.n.02_vs_apple.n.01_hypon_.png)
 
 
 #### Reference:
