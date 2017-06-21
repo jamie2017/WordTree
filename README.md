@@ -10,11 +10,11 @@
     
 ### Example
   - hypernyms are the synsets that are more general
-    - [127.0.0.1:8080/hyper?word1=banana&word2=apple]
+    - 127.0.0.1:8080/hyper?word1=banana&word2=apple
     ![Screenshot](https://github.com/jamie2017/WordTree/blob/master/output/banana.n.02_vs_apple.n.01_hyper_.png)
 
   - hyponyms are the synsets that are more specific
-    - [127.0.0.1:8080/hyper?word1=banana&word2=apple]
+    - 127.0.0.1:8080/hyper?word1=banana&word2=apple
     ![Screenshot](https://github.com/jamie2017/WordTree/blob/master/output/banana.n.02_vs_apple.n.01_hypon_.png)
 
 
