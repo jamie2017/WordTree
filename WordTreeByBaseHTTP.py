@@ -37,7 +37,6 @@ class WordTree(BaseHTTPRequestHandler):
                 lca, midDist, synObj1, synObj2 = test.getLCAByShortestDistance(word1[0], word2[0])
                 test.two_node_graph(synObj1, synObj2, fun)
                 fileName = "output/"+str(synObj1.name()) + '_vs_' + str(synObj2.name()) + '_'+fun+'_.png'
-                # print fileName
                 f = open(fileName, 'rb')
                 self.send_response(200)
                 self.send_header('Content-type', 'image/png')
