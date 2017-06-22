@@ -30,7 +30,7 @@
     1. Handle 404.html and image file
     2. Use pydot recursively draw node and generate plot
     3. Familiar with NLTK WordNet libary 
-    4. Difference use api practice between Flask and BaseHTTPServer
+    4. Api practice with Flask and BaseHTTPServer
     
 
 
